@@ -1,5 +1,6 @@
 package com.wy.day01;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TestNGDemo1 {
@@ -22,6 +23,8 @@ public class TestNGDemo1 {
     @Test
     public void testCase1(){
         System.out.println("我是@Test注解，case1");
+        Boolean b = false;
+        Assert.assertTrue(b);
     }
     //每个case执行之后执行
     @AfterMethod
