@@ -33,7 +33,7 @@ public class LoginTest {
     public Object[][] test1(){
         return new Object[][]{
                 {"13824404816","w3232515"},
-                {"17603023243","w3232515"}
+                //{"17603023243","w3232515"}
         };
     }
     @Test(dataProvider = "userlist")

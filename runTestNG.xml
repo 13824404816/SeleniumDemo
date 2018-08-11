@@ -3,8 +3,7 @@
 <suite name="Default Suite" thread-count="2" parallel="methods">
   <test name="Selenium">
     <classes>
-      <class name="com.wy.day03.LoginTest">
-
+      <class name="com.wy.day01.TestNGDemo1">
       </class> <!-- com.wy.day03.SendEmailTest -->
     </classes>
   </test> <!-- Selenium -->
